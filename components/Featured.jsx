@@ -14,15 +14,16 @@ function Featured() {
       setIndex(index !== 0 ? index-1: 2)
     }
     if (direction === "r"){
-      setIndex(index !== 0 ? index+1: 0)
+      setIndex(index !== 2 ? index+1: 0)
     }
   }
+  console.log(index);
   return (
     <div className={styles.container}>
       <div style={{ left: 0 }} className={styles.arrowContainer} onClick={()=>handleArrow("l")} >
-        <Image src="/img/arrowl.png" layout="fill" alt="arrowl" />
+        <Image src="/img/arrowl.png" objectFit="contain" layout="fill" alt="arrowl" />
       </div>
-      <div className={styles.wrapper}>
+      <div className={styles.wrapper} style={{transform:`translateX(${-100*index}vw)`}}>
           {images.map((img, index) => (
         <div  key={index}  className={styles.imgContainer}>
             <Image src={img} layout="fill" objectFit="contain" alt="featured" />
@@ -30,7 +31,7 @@ function Featured() {
           ))}
       </div>
       <div style={{ right: 0 }} className={styles.arrowContainer} onClick={()=>handleArrow("r")}>
-        <Image src="/img/arrowr.png" layout="fill" alt="arrowr" />
+        <Image src="/img/arrowr.png" objectFit="contain" layout="fill" alt="arrowr" />
       </div>
     </div>
   );
