@@ -7,5 +7,5 @@
 
 :star: Star on GitHub — it motivates Me a lot!
 
-[Team App](https://thunderous-sundae-a37e28.netlify.app/) is app that show you random users from  public [API](https://randomuser.me/api/?results=50) to get data for 50 users and it's a respensive app.
+[Restaurant App](https://thunderous-sundae-a37e28.netlify.app/) is Responsive app for food ordering using React | Next.js. Design restaurant app using React Next.js and CSS.
 
