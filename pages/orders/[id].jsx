@@ -16,7 +16,7 @@ if(index-status >1 ) return styles.undone
         <div className={styles.row}>
           <table className={styles.table}>
             <thead>
-              <tr className={styles.tr}>
+              <tr className={styles.trTitle}>
                 <th>Order ID</th>
                 <th>Customer</th>
                 <th>Adress</th>
@@ -26,7 +26,7 @@ if(index-status >1 ) return styles.undone
             </thead>
 
             <tbody>
-              <tr>
+              <tr className={styles.tr}>
                 <td>
                   <span className={styles.id}>1298456487945115</span>
                 </td>
