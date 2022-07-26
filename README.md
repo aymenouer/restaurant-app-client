@@ -5,7 +5,7 @@
 [![Stars](https://img.shields.io/github/stars/aymenouer/restaurant-app-client?style=social)](https://img.shields.io/github/stars/aymenouer/restaurant-app-client?style=social)
 
 
-:star: Star on GitHu — it motivates Me a lot!
+:star: Star on GitHubb — it motivates Me a lot!
 
 [Restaurant App](https://thunderous-sundae-a37e28.netlify.app/) is Responsive app for food ordering using React | Next.js. Design restaurant app using React Next.js and CSS.
 
