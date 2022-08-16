@@ -141,7 +141,7 @@ const Cart = () => {
                   components: "buttons",
                   currency: "EUR",
                   "disable-funding":"credit,card,p24,sepa,giropay,sofort",
-              }}
+              }}      
           >
       <ButtonWrapper
                   currency={currency}
