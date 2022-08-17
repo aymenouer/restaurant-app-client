@@ -53,7 +53,50 @@ const index = () => {
         </table>
       </div>
       <div className={styles.item} >
+      <h1 className={styles.title} >Orders</h1>
+      <table className={styles.table}>
+          <thead>
+            <tr className={styles.trTitle}>
+              
+              <th>Id</th>
+              <th>Customer</th>
+              <th>Total</th>
+              <th>Payment</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
 
+          <tbody>
+            <tr  className={styles.tr}>
+              <td>
+             4866466464
+             
+              </td>
+              <td>
+                Aymen
+               </td>
+              <td>
+                50
+               </td>
+              <td>
+                Paid 
+               </td>
+              <td>
+                Preparing 
+               </td>
+              <td>
+                <button >Next Stage</button>
+               </td>
+             
+           
+
+            </tr>
+          
+
+        
+          </tbody>
+        </table>
       </div>
 
 
