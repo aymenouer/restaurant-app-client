@@ -7,5 +7,5 @@
 
 :star: Star on GitHub — it motivates Me a lot!
 
-[Restaurant App](https://thunderous-sundae-a37e28.netlify.app/) is Responsive app for food ordering using React | Next.js. Design restaurant app using React Next.js and CSS.
+[Restaurant App](https://thunderous-sundae-a37e28.netlify.app/) is Responsive app for food ordering using React | Next.js. Design restaurant app using React Next.js and CSSS.
 
